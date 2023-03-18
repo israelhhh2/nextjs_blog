@@ -14,7 +14,7 @@ const query = groq`*[_type=='post'] {
  } | order(_createdAt desc)
 `;
 
-export const revalidate = 30;
+export const revalidate = 5;
 export default async function IndexPage() {
   if (previewData()) {
     return (
