@@ -1,16 +1,18 @@
 import Image from "next/image";
-
+import Link from "next/link";
 function Logo(props: any) {
   const { renderDefault, title } = props;
   return (
     <div className="flex items-center space-x-2">
-      <Image
-        className="rounded-full"
-        height={50}
-        width={50}
-        src="http://links.papareact.com/1m8"
-        alt="logo"
-      />
+      <Link href="/">
+        <Image
+          src="/../public/bitmoji.png"
+          width={60}
+          className="rounded-full"
+          height={60}
+          alt="logo"
+        />
+      </Link>
       <>{renderDefault(props)}</>
     </div>
   );

@@ -13,8 +13,8 @@ const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET ?? "default dataset";
 
 export default defineConfig({
   basePath: "/studio",
-  name: "PAPAFAM_Content_Studio",
-  title: "PAPAFAM Content Studio",
+  name: "Israel_Content_Studio",
+  title: "Israel's Content Studio",
 
   projectId,
   dataset,
