@@ -36,7 +36,7 @@ function Header() {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <Image
-            src="/../public/bitmoji.png"
+            src="/bitmoji.png"
             width={70}
             className="rounded-full"
             height={70}
